@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="std_id"
+        android:id="@+id/textView_main_std_id" />
+
+    <EditText
+        android:id="@+id/editText_main_std_id"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/textView_main_std_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="std_name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:id="@+id/editText_main_std_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="std_mail"
+        android:id="@+id/textView_main_std_mail" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_margin="5dp"
+        android:id="@+id/editText_main_std_mail" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="std_telephone"
+        android:id="@+id/textView_main_std_telephone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_margin="5dp"
+        android:id="@+id/editText_main_std_telephone" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="std_pw"
+        android:id="@+id/textView_main_std_pw" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_margin="5dp"
+        android:id="@+id/editText_main_std_pw" />
+
+
+    <TextView
+        android:id="@+id/textView_main_std_mac1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="mac address" />
+
+    <TextView
+        android:id="@+id/textView_main_std_mac"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_margin="5dp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Insert"
+        android:id="@+id/button_main_insert"
+        android:onClick="insert"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="5dp"
+        android:id="@+id/textView_sign_result" />
+
+</LinearLayout>
